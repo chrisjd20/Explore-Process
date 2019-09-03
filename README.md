@@ -3,7 +3,7 @@ Explore-Process Is like Get-Process For Windows PowerShell Only More PowerFul an
 
 Thanks to darkoperator at for some Sample VirusTotal Submission code found [here](https://github.com/darkoperator/Posh-VirusTotal/blob/master/Posh-VirusTotal.psm1)
 
-### Cool Features:
+### Features:
 
 1. Virus total Hash Search / File Upload of process binary
 2. More Detailed Process Information
@@ -31,6 +31,7 @@ If you have a Private Virus Total API key with a much higher limit, or you dont 
 1. Test Proxy Functionality
 2. Want to create script checker that inteligently retrieves and uploads any scriptable code or script file in `CommandLine` to virustotal as well.
 3. Need to switch Boolean command line switches to switches instead of True / False
+4. Cleanup and restructure the code. Right now it's just in a working state.
 
 ### Usage:
 
