@@ -383,8 +383,10 @@ md5           : 7353f60b1739074eb17c5f4dddefe239
 ```
 
 ### Pretty-Printing Results in JSON format:
-```
-PS C:\Users\rickybobby\Desktop> .\Explore-Process.ps1 -ComputerName DC03 -SkipCertChecks True -SearchFilter {Where-Object {$_.ProcessName -eq 'powershell.exe'}} -VirusTotal True  -ApiKey "1234567891011121314151617181920212223242526272829303132333435363" | ConvertTo-Json -Depth 10
+
+`PS C:\Users\rickybobby\Desktop> .\Explore-Process.ps1 -ComputerName DC03 -SkipCertChecks True -SearchFilter {Where-Object {$_.ProcessName -eq 'powershell.exe'}} -VirusTotal True  -ApiKey "1234567891011121314151617181920212223242526272829303132333435363" | ConvertTo-Json -Depth 10`
+
+``` json
 {
     "ProcessName":  "powershell.exe",
     "CommandLine":  "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
