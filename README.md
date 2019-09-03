@@ -31,7 +31,8 @@ If you have a Private Virus Total API key with a much higher limit, or you dont 
 1. Test Proxy Functionality
 2. Want to create script checker that inteligently retrieves and uploads any scriptable code or script file in `CommandLine` to virustotal as well.
 3. Need to switch Boolean command line switches to switches instead of True / False
-4. Cleanup and restructure the code. Right now it's just in a working state.
+4. Want to add a powershell deobfuscator option for any powershell malware. 
+5. Cleanup and restructure the code. Right now it's just in a working state.
 
 ### Usage:
 
